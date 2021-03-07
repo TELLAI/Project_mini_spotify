@@ -1,0 +1,116 @@
+/**********************General****************************/
+* {
+	box-sizing: border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px (la formule est 10/16*100) la taille par défaut étant 16px */
+}
+
+body {
+	    font-size: 1.6rem; /* on remets la taille du texte par défaut pour le body à 16px en utilisant les rem comme unité) */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #405C7A;
+        opacity: 80%;
+      }
+
+.fiche {
+    display: flex;
+    flex-direction: raw;
+}
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    margin: 10em;
+}
+.right {
+    padding: 8em 0;
+}
+button {
+        font-family: monospace;
+        font-size: 3.8em;
+        padding: 0.5em;
+        text-align: center;
+}
+.contain_img {
+    width: 35em;
+    height: 35em;
+    border-radius: 5em;
+    text-align: center;
+}
+.track_image {
+    height: 500px;
+    width: 100%;
+    border-radius: 1em;
+}
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #82BCFA;
+}
+.artist {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #82BCFA;
+}
+.fas {
+    color: #FF8A65;
+    background-color: #1E2C3B;
+}
+.cl {
+    background-color: #1E2C3B;
+    opacity: 70%;
+    border-radius: 1em;
+}
+input[type="range"] {
+	-webkit-appearance: none;
+	width: 50%;
+	outline: none;
+	height: 2px;
+	margin: 0 15px;
+}
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	background: #FF8A65;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.right input[type=range]{
+	width: 40%;
+}
+#volume_show {
+    color: white;
+    background-color: #FF8A65;
+    width: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.5em;
+}
+#volume {
+    width: 80%;
+}
+#volume_icon{
+    color: #FF8A65;
+}
+#duration_slider {
+    margin: 5em 0;
+    text-align: center;
+    width: 90%;
+}
+#current-time {
+    float: 1;
+    background-color: white;
+}
+#total-time{
+    flex: 1;
+    text-align: right;
+    background-color: white;
+}
