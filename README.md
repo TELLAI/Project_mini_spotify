@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Ce dépôt contient backend et le backend du mini lecteur spotify .
+Ce dépôt contient le backend et le Frontend du mini lecteur spotify .
 
 ## Features
 
